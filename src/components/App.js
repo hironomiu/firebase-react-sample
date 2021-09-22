@@ -1,8 +1,8 @@
 import { useState, useEffect } from 'react'
 import { pushMessage, messagesRef } from '../firebase'
 const App = () => {
-  const [name, setName] = useState('hoge')
-  const [text, setText] = useState('text')
+  const [name, setName] = useState('fuga')
+  const [text, setText] = useState('hello!!')
   const [messages, setMessages] = useState([])
 
   useEffect(() => {
