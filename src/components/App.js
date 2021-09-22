@@ -2,7 +2,7 @@ import { useState, useEffect } from 'react'
 import { pushMessage, messagesRef } from '../firebase'
 const App = () => {
   const [name, setName] = useState('fuga')
-  const [text, setText] = useState('hello!!')
+  const [text, setText] = useState('hello!!hello!!')
   const [messages, setMessages] = useState([])
 
   useEffect(() => {
